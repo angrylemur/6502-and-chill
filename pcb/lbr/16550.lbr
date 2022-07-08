@@ -112,60 +112,6 @@
 <text x="-25.908" y="-6.604" size="1.778" layer="25" rot="R90">&gt;NAME</text>
 <text x="-17.145" y="-1.016" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="PLCC44SOCKET">
-<pad name="1" x="1.27" y="6.35" drill="0.8"/>
-<pad name="2" x="-1.27" y="8.89" drill="0.8"/>
-<pad name="3" x="-1.27" y="6.35" drill="0.8"/>
-<pad name="4" x="-3.81" y="8.89" drill="0.8"/>
-<pad name="5" x="-3.81" y="6.35" drill="0.8"/>
-<pad name="6" x="-6.35" y="8.89" drill="0.8"/>
-<pad name="7" x="-8.89" y="6.35" drill="0.8"/>
-<pad name="8" x="-6.35" y="6.35" drill="0.8"/>
-<pad name="9" x="-8.89" y="3.81" drill="0.8"/>
-<pad name="10" x="-6.35" y="3.81" drill="0.8"/>
-<pad name="11" x="-8.89" y="1.27" drill="0.8"/>
-<pad name="12" x="-6.35" y="1.27" drill="0.8"/>
-<pad name="13" x="-8.89" y="-1.27" drill="0.8"/>
-<pad name="14" x="-6.35" y="-1.27" drill="0.8"/>
-<pad name="15" x="-8.89" y="-3.81" drill="0.8"/>
-<pad name="16" x="-6.35" y="-3.81" drill="0.8"/>
-<pad name="17" x="-8.89" y="-6.35" drill="0.8"/>
-<pad name="18" x="-6.35" y="-8.89" drill="0.8"/>
-<pad name="19" x="-6.35" y="-6.35" drill="0.8"/>
-<pad name="20" x="-3.81" y="-8.89" drill="0.8"/>
-<pad name="21" x="-3.81" y="-6.35" drill="0.8"/>
-<pad name="22" x="-1.27" y="-8.89" drill="0.8"/>
-<pad name="23" x="-1.27" y="-6.35" drill="0.8"/>
-<pad name="24" x="1.27" y="-8.89" drill="0.8"/>
-<pad name="25" x="1.27" y="-6.35" drill="0.8"/>
-<pad name="26" x="3.81" y="-8.89" drill="0.8"/>
-<pad name="27" x="3.81" y="-6.35" drill="0.8"/>
-<pad name="28" x="6.35" y="-8.89" drill="0.8"/>
-<pad name="29" x="8.89" y="-6.35" drill="0.8"/>
-<pad name="30" x="6.35" y="-6.35" drill="0.8"/>
-<pad name="31" x="8.89" y="-3.81" drill="0.8"/>
-<pad name="32" x="6.35" y="-3.81" drill="0.8"/>
-<pad name="33" x="8.89" y="-1.27" drill="0.8"/>
-<pad name="34" x="6.35" y="-1.27" drill="0.8"/>
-<pad name="35" x="8.89" y="1.27" drill="0.8"/>
-<pad name="36" x="6.35" y="1.27" drill="0.8"/>
-<pad name="37" x="8.89" y="3.81" drill="0.8"/>
-<pad name="38" x="6.35" y="3.81" drill="0.8"/>
-<pad name="39" x="8.89" y="6.35" drill="0.8"/>
-<pad name="40" x="6.35" y="8.89" drill="0.8"/>
-<pad name="41" x="6.35" y="6.35" drill="0.8"/>
-<pad name="42" x="3.81" y="8.89" drill="0.8"/>
-<pad name="43" x="3.81" y="6.35" drill="0.8"/>
-<pad name="44" x="1.27" y="8.89" drill="0.8"/>
-<circle x="1.27" y="6.35" radius="1.27" width="0.127" layer="21"/>
-<wire x1="-11.75" y1="-11.75" x2="11.75" y2="-11.75" width="0.127" layer="21"/>
-<wire x1="11.75" y1="-11.75" x2="11.75" y2="11.75" width="0.127" layer="21"/>
-<wire x1="-11.75" y1="-11.75" x2="-11.75" y2="9.21" width="0.127" layer="21"/>
-<wire x1="-11.75" y1="9.21" x2="-9.21" y2="11.75" width="0.127" layer="21"/>
-<wire x1="-9.21" y1="11.75" x2="11.75" y2="11.75" width="0.127" layer="21"/>
-<text x="-8.89" y="12.7" size="1.778" layer="25">&gt;NAME</text>
-<text x="-5.08" y="0" size="1.778" layer="27">&gt;VALUE</text>
-</package>
 <package name="S44">
 <description>&lt;b&gt;PLCC SOCKET&lt;/b&gt;</description>
 <wire x1="-10.16" y1="11.684" x2="-11.684" y2="10.16" width="0.1524" layer="21"/>
@@ -533,6 +479,54 @@
 <text x="-7.62" y="33.782" size="1.27" layer="95">&gt;PART</text>
 <text x="-7.62" y="-37.592" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="16C2552">
+<wire x1="-10.16" y1="33.02" x2="-10.16" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-35.56" x2="10.16" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-35.56" x2="10.16" y2="33.02" width="0.254" layer="94"/>
+<wire x1="10.16" y1="33.02" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
+<pin name="D7" x="-12.7" y="-15.24" length="short"/>
+<pin name="D6" x="-12.7" y="-12.7" length="short"/>
+<pin name="D5" x="-12.7" y="-10.16" length="short"/>
+<pin name="D4" x="-12.7" y="-7.62" length="short"/>
+<pin name="D3" x="-12.7" y="-5.08" length="short"/>
+<pin name="D2" x="-12.7" y="-2.54" length="short"/>
+<pin name="D1" x="-12.7" y="0" length="short"/>
+<pin name="D0" x="-12.7" y="2.54" length="short"/>
+<pin name="A2" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="A1" x="-12.7" y="12.7" length="short" direction="in"/>
+<pin name="A0" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="!CS!" x="-12.7" y="25.4" length="short" direction="in"/>
+<pin name="!CTSA!" x="12.7" y="22.86" length="short" direction="in" rot="R180"/>
+<pin name="!CDA!" x="12.7" y="15.24" length="short" direction="in" rot="R180"/>
+<pin name="!DSRA!" x="12.7" y="17.78" length="short" direction="in" rot="R180"/>
+<pin name="!DTRA!" x="12.7" y="20.32" length="short" direction="out" rot="R180"/>
+<pin name="INTB" x="-12.7" y="-25.4" length="short" direction="out"/>
+<pin name="RESET" x="-12.7" y="30.48" length="short" direction="in"/>
+<pin name="!MFB!" x="12.7" y="-25.4" length="short" direction="out" rot="R180"/>
+<pin name="!MFA!" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="!RTSA!" x="12.7" y="25.4" length="short" direction="out" rot="R180"/>
+<pin name="RXA" x="12.7" y="27.94" length="short" direction="in" rot="R180"/>
+<pin name="TXA" x="12.7" y="30.48" length="short" direction="out" rot="R180"/>
+<pin name="!TXRDYB!" x="12.7" y="-22.86" length="short" direction="out" rot="R180"/>
+<pin name="!TXRDYA!" x="12.7" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="!IOR!" x="-12.7" y="22.86" length="short" direction="in"/>
+<pin name="!IOW!" x="-12.7" y="20.32" length="short" direction="in"/>
+<pin name="!RIA!" x="12.7" y="12.7" length="short" direction="in" rot="R180"/>
+<pin name="XTAL1" x="12.7" y="-30.48" length="short" direction="in" rot="R180"/>
+<pin name="XTAL2" x="12.7" y="-33.02" length="short" direction="out" rot="R180"/>
+<text x="-10.16" y="33.782" size="1.27" layer="95">&gt;PART</text>
+<text x="-10.16" y="-37.592" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="INTA" x="-12.7" y="-22.86" length="short" direction="out"/>
+<pin name="CHSEL" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="!CTSB!" x="12.7" y="-7.62" length="short" direction="in" rot="R180"/>
+<pin name="!CDB!" x="12.7" y="-15.24" length="short" direction="in" rot="R180"/>
+<pin name="!DSRB!" x="12.7" y="-12.7" length="short" direction="in" rot="R180"/>
+<pin name="!DTRB!" x="12.7" y="-10.16" length="short" direction="out" rot="R180"/>
+<pin name="!RTSB!" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="RXB" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="TXB" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="!RIB!" x="12.7" y="-17.78" length="short" direction="in" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PC16550DN">
@@ -638,6 +632,63 @@
 <connect gate="G$1" pin="XOUT" pad="19"/>
 <connect gate="G$2" pin="VDD" pad="44"/>
 <connect gate="G$2" pin="VSS" pad="22"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ST16C2552CJ44-F">
+<gates>
+<gate name="G$1" symbol="16C2552" x="0" y="0"/>
+<gate name="G$2" symbol="PWRN" x="27.94" y="0"/>
+</gates>
+<devices>
+<device name="" package="S44">
+<connects>
+<connect gate="G$1" pin="!CDA!" pad="42"/>
+<connect gate="G$1" pin="!CDB!" pad="30"/>
+<connect gate="G$1" pin="!CS!" pad="18"/>
+<connect gate="G$1" pin="!CTSA!" pad="40"/>
+<connect gate="G$1" pin="!CTSB!" pad="28"/>
+<connect gate="G$1" pin="!DSRA!" pad="41"/>
+<connect gate="G$1" pin="!DSRB!" pad="29"/>
+<connect gate="G$1" pin="!DTRA!" pad="37"/>
+<connect gate="G$1" pin="!DTRB!" pad="27"/>
+<connect gate="G$1" pin="!IOR!" pad="24"/>
+<connect gate="G$1" pin="!IOW!" pad="20"/>
+<connect gate="G$1" pin="!MFA!" pad="35"/>
+<connect gate="G$1" pin="!MFB!" pad="19"/>
+<connect gate="G$1" pin="!RIA!" pad="43"/>
+<connect gate="G$1" pin="!RIB!" pad="31"/>
+<connect gate="G$1" pin="!RTSA!" pad="36"/>
+<connect gate="G$1" pin="!RTSB!" pad="23"/>
+<connect gate="G$1" pin="!TXRDYA!" pad="1"/>
+<connect gate="G$1" pin="!TXRDYB!" pad="32"/>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="14"/>
+<connect gate="G$1" pin="A2" pad="15"/>
+<connect gate="G$1" pin="CHSEL" pad="16"/>
+<connect gate="G$1" pin="D0" pad="2"/>
+<connect gate="G$1" pin="D1" pad="3"/>
+<connect gate="G$1" pin="D2" pad="4"/>
+<connect gate="G$1" pin="D3" pad="5"/>
+<connect gate="G$1" pin="D4" pad="6"/>
+<connect gate="G$1" pin="D5" pad="7"/>
+<connect gate="G$1" pin="D6" pad="8"/>
+<connect gate="G$1" pin="D7" pad="9"/>
+<connect gate="G$1" pin="INTA" pad="34"/>
+<connect gate="G$1" pin="INTB" pad="17"/>
+<connect gate="G$1" pin="RESET" pad="21"/>
+<connect gate="G$1" pin="RXA" pad="39"/>
+<connect gate="G$1" pin="RXB" pad="25"/>
+<connect gate="G$1" pin="TXA" pad="38"/>
+<connect gate="G$1" pin="TXB" pad="26"/>
+<connect gate="G$1" pin="XTAL1" pad="11"/>
+<connect gate="G$1" pin="XTAL2" pad="13"/>
+<connect gate="G$2" pin="VDD" pad="33 44"/>
+<connect gate="G$2" pin="VSS" pad="12 22"/>
 </connects>
 <technologies>
 <technology name=""/>
